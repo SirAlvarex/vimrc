@@ -20,9 +20,6 @@
     set backspace=indent,eol,start " make backspace a more flexible
     set fileformats=unix,mac,dos " support all three, in this order
     set hidden " you can change buffers without saving
-    if has("mouse")
-        set mouse=a " use mouse everywhere
-    endif
     set noerrorbells " don't make noise when something errors
     if has("persistent_undo")
         set undofile " enable file undoing
